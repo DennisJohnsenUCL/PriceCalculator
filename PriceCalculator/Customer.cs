@@ -1,6 +1,6 @@
 ﻿namespace PriceCalculator
 {
-    internal record Customer
+    public record Customer
     {
         public CustomerType CustomerType { get; }
     }

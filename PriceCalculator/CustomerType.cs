@@ -1,6 +1,6 @@
 ﻿namespace PriceCalculator
 {
-    enum CustomerType
+    public enum CustomerType
     {
         Individual,
         Organization,
