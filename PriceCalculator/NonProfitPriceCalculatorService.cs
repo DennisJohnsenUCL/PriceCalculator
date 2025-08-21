@@ -2,9 +2,6 @@
 {
     internal class NonProfitPriceCalculatorService : BasePriceCalculatorService
     {
-        protected override decimal GetDiscountAmount(decimal orderTotalExclDiscountAmount)
-        {
-            return orderTotalExclDiscountAmount * 0.20m;
-        }
+        protected override decimal GetDiscountAmount(decimal orderTotalExclDiscountAmount) => orderTotalExclDiscountAmount * 0.20m;
     }
 }
