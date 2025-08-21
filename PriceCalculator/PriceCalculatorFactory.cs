@@ -10,6 +10,8 @@ namespace PriceCalculator
 
         public IPriceCalculatorService GetPriceCalculator(Customer customer)
         {
+
+            // En switch expression anvendes til at returnere den rigtige type rabatudregner ud fra kundetypen
             IPriceCalculatorService calculator = customer.CustomerType switch
             {
                 CustomerType.Individual => new IndividualPriceCalculatorService(),

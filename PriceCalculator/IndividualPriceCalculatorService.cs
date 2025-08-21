@@ -2,6 +2,8 @@
 {
     internal class IndividualPriceCalculatorService : BasePriceCalculatorService
     {
+
+        // Hver individuel rabatudregner skal override GetDiscountAmount da den er abstract
         protected override decimal GetDiscountAmount(decimal orderTotalExclDiscountAmount)
         {
             decimal discountAmount = orderTotalExclDiscountAmount switch
