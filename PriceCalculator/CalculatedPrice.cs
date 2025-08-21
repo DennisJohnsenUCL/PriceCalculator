@@ -2,9 +2,9 @@
 {
     public record CalculatedPrice
     {
-        public Decimal OrderTotalExclDiscountAmount { get; }
-        public Decimal DiscountAmount { get; }
-        public Decimal OrderTotalInclDiscountAmount { get; }
+        public decimal OrderTotalExclDiscountAmount { get; }
+        public decimal DiscountAmount { get; }
+        public decimal OrderTotalInclDiscountAmount { get; }
 
         public CalculatedPrice(decimal orderTotalExclDiscountAmount, decimal discountAmount, decimal orderTotalInclDiscountAmount)
         {
