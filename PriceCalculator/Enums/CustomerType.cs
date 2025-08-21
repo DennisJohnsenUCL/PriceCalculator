@@ -1,4 +1,4 @@
-﻿namespace PriceCalculator
+﻿namespace PriceCalculator.Enums
 {
     public enum CustomerType
     {

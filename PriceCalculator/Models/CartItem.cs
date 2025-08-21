@@ -1,4 +1,4 @@
-﻿namespace PriceCalculator
+﻿namespace PriceCalculator.Models
 {
     public record CartItem
     {

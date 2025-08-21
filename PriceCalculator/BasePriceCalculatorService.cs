@@ -1,4 +1,7 @@
-﻿namespace PriceCalculator
+﻿using PriceCalculator.Interfaces;
+using PriceCalculator.Models;
+
+namespace PriceCalculator
 {
     public abstract class BasePriceCalculatorService : IPriceCalculatorService
     {
